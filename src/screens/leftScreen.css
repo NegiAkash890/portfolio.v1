@@ -1,13 +1,13 @@
 .intro__headings{
     width: 100%;
 }
-.intro__headings > h2{
+.intro__headings  h2{
       font-size: 40px;
       font-weight: 800;
       color: var(--heading-color);
 }
 
-.intro__headings > p{
+.intro__headings  p{
     margin-top: 20px;
     font-size: 16px;
     color:var(--text-color);
