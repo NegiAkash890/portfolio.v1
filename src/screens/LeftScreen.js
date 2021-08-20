@@ -44,8 +44,8 @@ function LeftScreen() {
                 </div>
                 { value ?
                     (<FlipButton>
-                        <button className='btn' onMouseEnter={handleClick}><a style={{color:'white',textDecoration:'none'}} href='https://drive.google.com/file/d/1K9aC1wiORDfo__MwrWd9GXsXr4FldvlZ/view?usp=sharing'>Download Resume</a></button>
-                    </FlipButton>):(<button className='btn' onMouseEnter={handleClick}><a style={{color:'white',textDecoration:'none'}} href='https://drive.google.com/drive/u/0/my-drive'>Download Resume</a></button>)
+                        <button className='btn' onMouseEnter={handleClick}><a style={{color:'white',textDecoration:'none'}} href='https://drive.google.com/file/d/1zkTjosm_aB151Wk6PB1tzn2EJvaMzj-O/view?usp=sharing'>Download Resume</a></button>
+                    </FlipButton>):(<button className='btn' onMouseEnter={handleClick}><a style={{color:'white',textDecoration:'none'}} href='https://drive.google.com/file/d/1zkTjosm_aB151Wk6PB1tzn2EJvaMzj-O/view?usp=sharing'>Download Resume</a></button>)
                 }
                 
             </div>
