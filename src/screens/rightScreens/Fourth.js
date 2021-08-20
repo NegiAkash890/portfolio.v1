@@ -1,6 +1,9 @@
 import React from 'react'
 
 function Fourth() {
+  const handleClick  = (link)=>{
+    window.location.href= link;
+  }
     return (
         <>
              <h3>004</h3>
@@ -16,7 +19,7 @@ function Fourth() {
                              and basics of Cloud Computing.
 
                            </p>
-                           <button title='Watch Recording'>&#8594;</button>
+                           <button title='Watch Recording' onClick={()=>handleClick('https://stdntpartners-my.sharepoint.com/:p:/g/personal/akash_negi_studentambassadors_com/ERBEH3hSTTdKjCfPTYhUpugBL7R5RG3xyhE0h3bZrdPf2A?e=fegZHO')}>&#8594;</button>
                            
                         </div>
                            
@@ -31,8 +34,7 @@ function Fourth() {
                               my responsibility was to teach student
                               about HTML, CSS and JavaScript usage.
                             </p>
-                            <button title='Watch Recording'>&#8594;</button>
-                            
+                            <button title='Class PPTs' onClick={()=>handleClick('https://github.com/NegiAkash890/Week-1')}>&#8594;</button>
                     </div>
                  </div>
              </div>

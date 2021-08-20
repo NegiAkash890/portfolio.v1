@@ -4,6 +4,7 @@
     padding: 50px;
     color: white;
 }
+/*  Right side Screens */
 .first__screen{
     height: 100vh;
     background-color: #f4b93d;
@@ -16,12 +17,12 @@
 
 .third__screen{
     height: 100vh;
- background-color: tomato;
+    background-color: tomato;
 }
 
 .fourth__screen{
-
- background-color: #009ee2;
+    height:100vh;
+    background-color: #009ee2;
 
 }
 
@@ -115,13 +116,15 @@ mark:hover{
     color: black;
     width:calc(var(--width,0) * 1% ) ;
     max-width: calc(100% - 1em);
-    background-color: white;
+    color: white;
+    background-color: #f4b93d;
     padding: 1em;
     border-radius:20px;
 }
 
 .front__end, .back__end{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     margin-left: 10px;
     min-width: 40%;
 }
@@ -197,7 +200,7 @@ mark:hover{
     }
 
     .front__end >h3 , .back__end > h3 {
-        width: 50%;
+        width: 30%;
         border-bottom: 5px solid #f4b93d;
     }
 }

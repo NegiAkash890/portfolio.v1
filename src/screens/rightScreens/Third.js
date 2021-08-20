@@ -7,8 +7,8 @@ function Third() {
              <h2>Things I like doing</h2>
              <div className='skill__interests'>
                    <div className='interest__section'>
-                        <img src={process.env.PUBLIC_URL + '/assets/CSS battle.png'} width='100px'  alt='CSS Battle'/>
-                        <p>This has helped me a lot to improve my CSS. </p>
+                        <img src={process.env.PUBLIC_URL + '/assets/CSS battle.png'} width='100px' alt='CSS Battle'/>
+                        <p>This has helped me a lot to improve my <a style={{color:'white'}} href='https://cssbattle.dev/player/GGce47p5yYdpyWb8Gfi2X2hAI9u2'>CSS. </a></p>
                    </div>
                    <div className='interest__section'>
                         <img src={process.env.PUBLIC_URL + '/assets/blog.png'} width='100px' alt='Blogs'/>
