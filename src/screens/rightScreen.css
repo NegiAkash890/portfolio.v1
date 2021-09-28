@@ -1,27 +1,24 @@
 .full{
-    height: 100vh;
+    
     width: 100%;
     padding: 50px;
     color: white;
 }
 /*  Right side Screens */
 .first__screen{
-    height: 100vh;
+
     background-color: #f4b93d;
 }
 
 .second__screen{
- height: 100vh;
- background-color: #005ba9;
+    background-color: #005ba9;
 }
 
 .third__screen{
-    height: 100vh;
     background-color: tomato;
 }
 
 .fourth__screen{
-    height:100vh;
     background-color: #009ee2;
 
 }
@@ -63,7 +60,8 @@
 .personal__info{
     display: flex;
     flex-direction: row;
-    margin: 100px auto;
+    margin: 5rem auto;
+    overflow: hidden;
 }
 
 .personal__info > img {
@@ -73,7 +71,7 @@
 .self__intro  > p  {
     line-height:1.3;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 1.9rem;
     margin-bottom: 15px;
     padding: 6px;
     
@@ -81,7 +79,7 @@
 }
 
 mark{
-   font-family:cursive;
+   
    padding: 3px 6px;
    background-color: blueviolet;
    color: white;
