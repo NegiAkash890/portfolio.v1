@@ -1,0 +1,49 @@
+:root {
+  --heading-color: #4a4a4a;
+  --text-color: rgb(169, 169, 169);
+  --btn-light: rgb(59, 128, 254);
+  --link-light: #73a4fd;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left__screen {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 40vw;
+  height: 100vh;
+  background-color: #eee;
+  position: fixed;
+}
+.right__screen {
+  position: absolute;
+  left: 50%;
+  width: 60vw;
+  left: 40vw;
+}
+
+/* img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+} */
+
+@media (max-width: 800px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .left__screen {
+    position: static;
+    width: 100%;
+  }
+  .right__screen {
+    position: static;
+    width: 100%;
+  }
+}

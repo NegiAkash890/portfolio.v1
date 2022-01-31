@@ -1,0 +1,48 @@
+.intro__headings{
+    width: 100%;
+}
+.intro__headings  h2{
+      font-size: 40px;
+      font-weight: 800;
+      color: var(--heading-color);
+}
+
+.intro__headings  p{
+    margin-top: 20px;
+    font-size: 16px;
+    color:var(--text-color);
+}
+
+.connect__me > ul {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.connect__me  img {
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.connect__me img :hover {
+    fill: red;
+}
+
+.fancy__text{
+    color: var(--btn-light);
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--btn-light);
+    color: white;
+    width: 60%;
+    font-weight: 600;
+}
+
+
+
